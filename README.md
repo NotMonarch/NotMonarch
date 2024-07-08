@@ -47,13 +47,13 @@
 
 <br>
 
-### ⚡ Learning
+### 🍂 What I Do?
 
-I always like to learn new languages to be more flexible with my codes
+Well, Most Of the times you'll find me sleeping!?... You will find me play Genshin Imapct for 4-6 hours. So basically, All i do is Waste time 
 
-### ❤️ Contact Me
+### 🔷 Contact Me
 
-You can reach out to me through these given platforms 
+Try Contacting though the give Platforms -
 
 - [![telegram](https://img.shields.io/badge/Monarch-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/MonarchSama)
 
