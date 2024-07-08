@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=Bule&center=true&lines=Hello+There+!;Using+My+Brain+in+codes+!;Sharing+My+Experience+!;Enjoy!&width=300&height=180">
+  <img src="https://readme-typing-svg.herokuapp.com?color=Red&center=true&lines=Hey!+Thanks+For+Viewing!&width=300&height=180">
 </p>
 
 <h2 align="center">
-    ──「 Welcome 」──
+    ──「Welcome」──
 </h2>
 
 <div style="display: flex;">
   <div style="flex: 1;">
     <h3>About Me</h3>
     <p>
-      Hey there! I'm Just a Lazy asf Person Writes code to Create a distraction 
+      Hey there! I'm Also Trying To Find Myself..!? 
     </p>
   </div>
   <div style="flex: 1;">
