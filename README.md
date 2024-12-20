@@ -20,7 +20,7 @@
     </p>
   </div>
   <div style="flex: 1;">
-    <img src="https://telegra.ph//file/0a2eca02fa74e6a77283f.jpg" width="1000" alt="Profile Image">
+    <img src="" width="1000" alt="Profile Image">
   </div>
 </div>
 
