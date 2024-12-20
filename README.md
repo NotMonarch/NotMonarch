@@ -45,7 +45,7 @@
   <img alt="User Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=Notmonarch&bg_color=282828&color=ebdbb2&line=83a598&point=ffffff&hide_border=true" />
 </a>
 
-### ᴛᴏᴏʟs
+### ᴛᴏᴏʟs ɪ ᴜsᴇ
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![MySql](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -58,8 +58,7 @@
 <p>
   I Usually Forgets To "Sleep".
 <p>
-  My Strengths Are- 
- I'm Rich.
+  [**Sleeps**]
 <p>
 
 ### ʕ　˵·ᴥ·ʔ ᴄᴏɴᴛᴀᴄᴛ-ᴍᴇ
