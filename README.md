@@ -47,9 +47,9 @@
 
 ### ᴛᴏᴏʟs
 
-- Programing Languages I Know? - ![ᴘʏᴛʜᴏɴhon](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-- Hostings & Servers I use? - ![ʜᴇʀᴏᴋᴜ](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-- DataBases I Know ? - ![ᴍʏsǫʟ](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+(https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+(https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+(https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 <br>
 
 ### 🍁 sᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ sʜᴏᴜʟᴅ ᴋɴᴏᴡ ɪ ɢᴜᴇss?
