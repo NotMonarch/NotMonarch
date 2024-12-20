@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-    ──「Welcome」──
+    ──「ᴡ ᴇ ʟ ᴄ ᴏ ᴍ ᴇ」──
 </h2>
 
 <div style="display: flex;">
