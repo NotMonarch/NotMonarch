@@ -69,4 +69,5 @@ My Social Handles Are-
 
 - [![ᴛᴇʟᴇɢʀᴀᴍ](https://img.shields.io/badge/Monarch-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/MonarchSama)
 
+- [![ɪɴsᴛᴀɢʀᴀᴍ](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/leywinsama?igsh=MXhiZGxuMWwyNnEwdA==)
 <br>
