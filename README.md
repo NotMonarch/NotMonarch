@@ -55,10 +55,14 @@
 
 ### 🍁 sᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ sʜᴏᴜʟᴅ ᴋɴᴏᴡ ɪ ɢᴜᴇss?
 
-I Play Genshin Impact- Asia Server(Dm me if you wanna play together).
-I Usually Forgets To "Sleep".
-My Strengths Are- 
-I'm Rich
+<p>
+  I Play Genshin Impact- Asia Server(Dm me if you wanna play together).
+<p>
+  I Usually Forgets To "Sleep".
+<p>
+  My Strengths Are- 
+ I'm Rich.
+<p>
 
 ### ʕ　˵·ᴥ·ʔ ᴄᴏɴᴛᴀᴄᴛ-ᴍᴇ
 
