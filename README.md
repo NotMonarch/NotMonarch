@@ -2,6 +2,8 @@
 
 Welcome to my GitHub profile! I'm passionate about coding, data analysis, and building cool projects. Here's a little about me and my work.
 
+![](https://files.catbox.moe/f6wnmp.jpg)
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -20,8 +22,6 @@ Here’s a quick overview of my GitHub activity:
 ![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=NotMonarch&show_icons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NotMonarch&layout=compact&theme=radical)
-
-![](https://files.catbox.moe/dcrpud.jpeg)
 
 ---
 
