@@ -1,4 +1,4 @@
-# Hi there, I'm [Your Name]! 👋
+# Hi there, I'm Monarch! 👋
 
 Welcome to my GitHub profile! I'm passionate about coding, data analysis, and building cool projects. Here's a little about me and my work.
 
