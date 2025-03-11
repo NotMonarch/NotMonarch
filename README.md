@@ -35,4 +35,4 @@ Let's connect! Find me on:
 Feel free to reach out if you have any questions, collaboration ideas, or just want to say hi!
 
 
-⭐️ Thanks for visiting my profile! ⭐️
+Thanks for visiting my profile! ❄️
