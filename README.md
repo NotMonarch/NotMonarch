@@ -1,73 +1,36 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=Violet&center=true&lines=ʜᴇʏ!+ᴅɪᴅɴ'ᴛ+sᴇᴇ+ʏᴏᴜ+ᴛʜᴇʀᴇ!&width=300&height=120">
-</p>
+# Hi there, I'm [Your Name]! 👋
 
-<h2 align="center">
-    ──「ᴡ ᴇ ʟ ᴄ ᴏ ᴍ ᴇ」──
-</h2>
+Welcome to my GitHub profile! I'm passionate about coding, data analysis, and building cool projects. Here's a little about me and my work.
 
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <h3> ❄ ᴀʙᴏᴜᴛ ᴍᴇ? </h3>
-    <p>
-        He/Him.
-    <p>
-       I'm 17.
-    <p>
-       From Delhi,India.
-    <p>
-       I'll give my handles below so, Make sure to Check them out.
-    </p>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://files.catbox.moe/1rlgkr.webp" width="1000" alt="Profile Image">
-  </div>
-</div>
+---
 
-<br>
+## 🛠️ Tools & Technologies
 
-## ᴘʀᴏғɪʟᴇ-ᴍᴇᴛʀɪᴄs
+Here are some of the tools and technologies I work with:
 
-<p align="center"> 
-  Total Visitors<br>
-  <img src="https://profile-counter.glitch.me/NotMonarch/count.svg" />
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### ɢɪᴛʜᴜʙ-ᴏᴠᴇʀᴠɪᴇᴡ
+---
 
-<a href="https://github.com/Notmonarch/github-readme-stats">
-  <img src="https://denvercoder1-github-readme-stats.vercel.app/api/?username=NotMonarch&show_icons=True&include_all_commits=True&count_private=True&theme=react&hide_border=True&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" />
-</a>
+## 📊 GitHub Stats
 
-### ᴀᴄᴛɪᴠɪᴛʏ-ɢʀᴀᴘʜ
+Here’s a quick overview of my GitHub activity:
 
-<a href="https://github.com/Notmonarch/github-readme-activity-graph">
-  <img alt="User Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=Notmonarch&bg_color=282828&color=ebdbb2&line=83a598&point=ffffff&hide_border=true" />
-</a>
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=NotMonarch&show_icons=true&theme=radical)
 
-### ᴛᴏᴏʟs ɪ ᴜsᴇ
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NotMonarch&layout=compact&theme=radical)
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![MySql](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-<br>
+---
 
-### 🍁 sᴏᴍᴇᴛʜɪɴɢ ʏᴏᴜ sʜᴏᴜʟᴅ ᴋɴᴏᴡ ɪ ɢᴜᴇss?
+## 🌐 Social Handles
 
-<p>
-  I Play Genshin Impact- Asia Server(Dm me if you wanna play together).
-<p>
-  I Usually Forgets To "Sleep".
-<p>
-  *Sleeps*
-<p>
+Let's connect! Find me on:
 
-### ʕ　˵·ᴥ·ʔ ᴄᴏɴᴛᴀᴄᴛ-ᴍᴇ
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MonarchSama)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/LeywinSama)
 
-My Social Handles Are-
+Feel free to reach out if you have any questions, collaboration ideas, or just want to say hi!
 
- [![ᴛᴇʟᴇɢʀᴀᴍ](https://img.shields.io/badge/Monarch-Telegram-blue?style=for-the-badge&logo=telegram)](https://t.me/MonarchSama)
 
- [![ɪɴsᴛᴀɢʀᴀᴍ](https://img.shields.io/badge/Monarch-Instagram-red?style=for-the-badge&logo=Instagram)](https://www.instagram.com/leywinsama)
-
-  
-<br>
+⭐️ Thanks for visiting my profile! ⭐️
