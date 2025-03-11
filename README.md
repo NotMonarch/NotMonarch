@@ -21,6 +21,8 @@ Here’s a quick overview of my GitHub activity:
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NotMonarch&layout=compact&theme=radical)
 
+![](https://files.catbox.moe/dcrpud.jpeg)
+
 ---
 
 ## 🌐 Social Handles
