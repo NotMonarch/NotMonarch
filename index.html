@@ -8,72 +8,88 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header class="main-header">
-        <div class="profile-card">
-            <h1 class="animate-on-load">Hi there! I'm Monarch</h1>
-            <p class="animate-on-load slogan">"Slothful"</p>
+        <h1 class="logo">Monarch</h1>
+        <nav class="main-nav">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#tools" class="nav-link">Tools</a>
+            <a href="#connect" class="nav-link">Connect with me</a>
+        </nav>
+        <div class="dots-menu-container">
+            <button class="dots-icon">&#x22EE;</button>
+            <nav class="dots-nav">
+                <a href="#home">Home</a>
+                <a href="#tools">Tools</a>
+                <a href="#connect">Connect</a>
+            </nav>
         </div>
     </header>
 
     <main>
-        <section class="section-movie">
+        <section id="home" class="content-section active-section">
+            <div class="profile-card">
+                <h2 class="animate-on-load">Hi there! I'm Monarch</h2>
+                <p class="animate-on-load slogan">"Slothful"</p>
+            </div>
             <div class="movie-scene-container animate-on-scroll">
-                <h2 class="movie-quote">"Just Like A Movie Scene—"</h2>
+                <h3 class="movie-quote">"Just Like A Movie Scene—"</h3>
                 <img src="https://files.catbox.moe/xfixop.jpg" alt="A captivating scene" class="movie-image">
             </div>
         </section>
 
-        <section class="section-tools">
-            <h2 class="animate-on-scroll">Tools & Technologies</h2>
-            <div class="badges-container animate-on-scroll">
-                <a href="https://www.python.org/" target="_blank" title="Python">
+        <section id="tools" class="content-section hidden-section">
+            <h2>Tools & Technologies</h2>
+            <div class="badge-item-container">
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
-                </a>
-                <a href="https://www.w3schools.com/html/" target="_blank" title="HTML5">
+                    <p class="badge-description">I'm experienced in using Python for scripting, backend development, and data analysis.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
-                </a>
-                <a href="https://www.w3schools.com/css/" target="_blank" title="CSS3">
+                    <p class="badge-description">HTML5 is the foundation of my web projects, used to structure content and elements.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
-                </a>
-                <a href="https://www.mongodb.com/" target="_blank" title="MongoDB">
+                    <p class="badge-description">I use CSS3 to style my websites, creating visually appealing and responsive designs.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
-                </a>
-                <a href="https://www.mysql.com/" target="_blank" title="MySQL">
+                    <p class="badge-description">MongoDB is my go-to NoSQL database for flexible and scalable applications.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge">
-                </a>
-                <a href="https://vercel.com/" target="_blank" title="Vercel">
+                    <p class="badge-description">I use MySQL for relational database management, ensuring data integrity and structure.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Badge">
-                </a>
-                <a href="https://code.visualstudio.com/" target="_blank" title="VS Code">
+                    <p class="badge-description">I rely on Vercel for seamless deployment and hosting of my front-end projects.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code Badge">
-                </a>
+                    <p class="badge-description">VS Code is my preferred code editor, with its powerful features and extensions.</p>
+                </div>
             </div>
         </section>
 
-        <section class="section-connect">
-            <h2 class="animate-on-scroll">Connect with Me</h2>
-            <div class="social-badges animate-on-scroll">
-                <a href="https://t.me/MonarchSama" target="_blank" title="Telegram">
+        <section id="connect" class="content-section hidden-section">
+            <h2>Connect with Me</h2>
+            <div class="badge-item-container">
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge">
-                </a>
-                <a href="https://www.instagram.com/Lyxnine" target="_blank" title="Instagram">
+                    <p class="badge-description">Replies here will be the fastest. Feel free to connect for general queries or chats.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge">
-                </a>
-                <a href="mailto:kajlaishant03@gmail.com" target="_blank" title="Email">
+                    <p class="badge-description">Replies can be slower here. I check Instagram less frequently for messages.</p>
+                </div>
+                <div class="badge-item animate-on-scroll">
                     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
-                </a>
-            </div>
-        </section>
-
-        <section class="section-stats">
-            <h2 class="animate-on-scroll">GitHub Stats</h2>
-            <div class="stats-container animate-on-scroll">
-                <img src="https://github-readme-stats.vercel.app/api?username=NotMonarch&show_icons=true&theme=gotham&hide_border=true&rank_icon=github" alt="GitHub Stats">
-                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotMonarch&layout=compact&theme=gotham&hide_border=true" alt="Top Languages">
+                    <p class="badge-description">This is for important tasks only. It's the fastest method for formal or urgent communication.</p>
+                </div>
             </div>
         </section>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
