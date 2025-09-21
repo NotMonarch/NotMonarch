@@ -195,7 +195,7 @@ h1, h2, h3 {
 
 .badge-item img {
     height: 40px;
-}
+
 
 .badge-description {
     font-size: 1rem;
@@ -212,6 +212,7 @@ h1, h2, h3 {
 
 .animate-on-load:nth-child(2) {
     animation-delay: 0.5s;
+    
 }
 
 @keyframes fadeInSlideUp {
@@ -250,4 +251,46 @@ h1, h2, h3 {
         flex-direction: column;
         text-align: center;
     }
+
+/* --- New GitHub Stats Styling --- */
+.section-stats {
+    padding: 50px 20px;
 }
+
+.stats-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center; /* Center the cards horizontally */
+}
+
+.stats-card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.stats-card h4 {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.stats-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments for badges on smaller screens */
+@media (max-width: 768px) {
+    /* ... Previous responsive styles ... */
+    
+    .stats-card {
+        padding: 15px;
+    }
+}
+    
