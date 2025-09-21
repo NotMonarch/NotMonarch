@@ -12,7 +12,9 @@
 
 <div align="center">
     <p>
-        "Slothful"
+        "Slothful" developer currently working on Telegram Bots & Web Development.
+        currently learning C & js.
+        also messing up with APIs
     </p>
 </div>
 
