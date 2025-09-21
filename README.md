@@ -12,7 +12,7 @@
 
 <div align="center">
     <p>
-        "Slothful" is kinda the best word to describe me.(Don't worry i finish tasks hopefully on time)
+        "Slothful"
     </p>
 </div>
 
