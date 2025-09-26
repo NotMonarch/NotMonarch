@@ -1,12 +1,12 @@
 /* Colors and Variables */
 :root {
-    --bg-color: #1a1a1a;
-    --text-color: #e0e0e0;
-    --primary-color: #4CAF50; /* A nice green */
-    --accent-color: #2e2e2e;
-    --card-bg: #282828;
-    --hover-color: #66BB6A;
-    --nav-bg: #333;
+    --bg-color: #18181B;
+    --text-color: #D3C3B9;
+    --primary-color: #2D3D53;
+    --accent-color: #A79E9C;
+    --card-bg: #B58863;
+    --hover-color: #F8E3DA;
+    --nav-bg: #3D4D55;
     --border-radius: 8px;
     --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
