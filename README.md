@@ -1,90 +1,55 @@
 <div align="center">
-    <a href="https://github.com/NotMonarch">
-        <img src="https://komarev.com/ghpvc/?username=NotMonarch&label=Profile%20Views&color=0e76a8&style=flat" alt="Profile Views">
-    </a>
-</div>
 
-<div align="center">
-    <h1>
-        Hi there! I'm <a href="https://github.com/NotMonarch">Monarch</a>
-    </h1>
-</div>
+<a href="https://github.com/NotMonarch">
+    <img src="https://komarev.com/ghpvc/?username=NotMonarch&label=Profile%20Views&color=B58863&style=flat-square" alt="Profile Views"/>
+</a>
 
-<div align="center">
-    <p>
-        "Slothful" developer currently working on Telegram Bots & Web Development.
-        currently learning C & js.
-        also messing up with APIs
-    </p>
-</div>
+<h1>Hi there, I'm Monarch! 👋</h1>
 
-<br>
-
-<div align="center">
-    <div style="background: linear-gradient(135deg, #4b0082, #8a2be2, #9400d3); padding: 20px; border-radius: 10px; max-width: 600px; margin: 0 auto; color: white;">
-        <h3 style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">"Just Like A Movie Scene—"</h3>
-    </div>
-</div>
-
-<br>
-
-<div align="center">
-    <img src="https://files.catbox.moe/xfixop.jpg" alt="A captivating scene">
-</div>
-
-<br>
-
-
-
----
-
-<div align="center">
-    <h2>Tools & Technologies</h2>
-    <div style="margin-top: 10px;">
-        <a href="https://www.python.org/" target="_blank">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
-        </a>
-        <a href="https://www.w3schools.com/html/" target="_blank">
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge">
-        </a>
-        <a href="https://www.w3schools.com/css/" target="_blank">
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3 Badge">
-        </a>
-        <a href="https://www.mongodb.com/" target="_blank">
-            <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB Badge">
-        </a>
-        <a href="https://www.mysql.com/" target="_blank">
-            <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge">
-        </a>
-        <a href="https://vercel.com/" target="_blank">
-            <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Badge">
-        </a>
-        <a href="https://code.visualstudio.com/" target="_blank">
-            <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code Badge">
-        </a>
-    </div>
-</div>
-
----
-
-<div align="center">
-    <h2>Connect with Me</h2>
-    <div style="margin-top: 10px;">
-        <a href="https://t.me/MonarchSama" target="_blank">
-            <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Badge">
-        </a>
-        <a href="https://www.instagram.com/Lyxnine" target="_blank">
-            <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge">
-        </a>
-        <a href="mailto:kajlaishant03@gmail.com" target="_blank">
-            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge">
-        </a>
-    </div>
-</div>
-
-<br>
-
-<p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=NotMonarch&show_icons=true&theme=gotham&hide_border=true&rank_icon=github" alt="GitHub Stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotMonarch&layout=compact&theme=gotham&hide_border=true" alt="Top Languages">
+<p>
+    A "slothful" developer currently working on Telegram Bots & Web Development.<br/>
+    I'm learning C & JS and enjoy messing around with APIs.
 </p>
+
+<br>
+
+<div style="background: linear-gradient(135deg, #2D3D53, #3D4D55); padding: 20px; border-radius: 10px; max-width: 600px; margin: 0 auto; color: #F8E3DA;">
+    <h3 style="margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">"Just Like A Movie Scene—"</h3>
+</div>
+<br/>
+<img src="https://files.catbox.moe/xfixop.jpg" alt="A captivating scene" style="border-radius: 8px; max-width: 600px; width: 100%;">
+
+---
+
+<h2>Tools & Technologies →</h2>
+<p>
+    <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3D4D55?style=for-the-badge&logo=python&logoColor=F8E3DA" alt="Python"></a>
+    <a href="https://www.w3schools.com/html/" target="_blank"><img src="https://img.shields.io/badge/HTML5-3D4D55?style=for-the-badge&logo=html5&logoColor=F8E3DA" alt="HTML5"></a>
+    <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://img.shields.io/badge/CSS3-3D4D55?style=for-the-badge&logo=css3&logoColor=F8E3DA" alt="CSS3"></a>
+    <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-3D4D55?style=for-the-badge&logo=mongodb&logoColor=F8E3DA" alt="MongoDB"></a>
+    <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-3D4D55?style=for-the-badge&logo=mysql&logoColor=F8E3DA" alt="MySQL"></a>
+    <a href="https://vercel.com/" target="_blank"><img src="https://img.shields.io/badge/Vercel-3D4D55?style=for-the-badge&logo=vercel&logoColor=F8E3DA" alt="Vercel"></a>
+    <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS_Code-3D4D55?style=for-the-badge&logo=visual-studio-code&logoColor=F8E3DA" alt="VS Code"></a>
+</p>
+
+---
+
+<h2>Connect with Me →</h2>
+<p>
+    <a href="https://t.me/MonarchSama" target="_blank"><img src="https://img.shields.io/badge/Telegram-3D4D55?style=for-the-badge&logo=telegram&logoColor=F8E3DA" alt="Telegram"></a>
+    <a href="https://www.instagram.com/Lyxnine" target="_blank"><img src="https://img.shields.io/badge/Instagram-3D4D55?style=for-the-badge&logo=instagram&logoColor=F8E3DA" alt="Instagram"></a>
+    <a href="mailto:kajlaishant03@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-3D4D55?style=for-the-badge&logo=gmail&logoColor=F8E3DA" alt="Gmail"></a>
+</p>
+
+---
+
+<h2>My GitHub Stats →</h2>
+<p>
+    <img src="https://github-readme-stats.vercel.app/api?username=NotMonarch&show_icons=true&hide_border=true&title_color=F8E3DA&text_color=D3C3B9&icon_color=B58863&bg_color=18181B&rank_icon=github" alt="GitHub Stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NotMonarch&layout=compact&hide_border=true&title_color=F8E3DA&text_color=D3C3B9&bg_color=18181B" alt="Top Languages">
+</p>
+<p>
+    <img src="https://streak-stats.demolab.com/?user=NotMonarch&hide_border=true&background=18181B&stroke=D3C3B9&ring=F8E3DA&fire=B58863&currStreakNum=F8E3DA&sideNums=D3C3B9&currStreakLabel=F8E3DA&sideLabels=D3C3B9&dates=A79E9C" alt="GitHub Streak">
+</p>
+
+</div>
