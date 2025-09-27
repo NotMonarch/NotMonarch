@@ -1,93 +1,73 @@
-/**
- * Handles scroll animations for elements with the 'animate-on-scroll' class.
- * Elements become visible when they enter the viewport.
- */
+// Wait for the DOM to be fully loaded before running the script
 document.addEventListener('DOMContentLoaded', () => {
-    // --- Existing Scroll Animation Logic ---
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-    };
 
-    const observerCallback = (entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('is-visible');
-                observer.unobserve(entry.target);
+    // --- Navigation for switching content sections ---
+    const navLinks = document.querySelectorAll('.nav-link, .dots-nav a');
+    const sections = document.querySelectorAll('.content-section');
+    const mainNavLinks = document.querySelectorAll('.main-nav .nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault(); // Stop the browser from jumping to the anchor
+
+            const targetId = link.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+
+            // Hide all other sections
+            sections.forEach(section => {
+                section.classList.remove('active-section');
+                section.classList.add('hidden-section');
+            });
+
+            // Show only the target section with a fade-in effect
+            if (targetSection) {
+                targetSection.classList.remove('hidden-section');
+                targetSection.classList.add('active-section');
+            }
+
+            // Update the 'active' class on the main navigation links
+            mainNavLinks.forEach(navLink => {
+                navLink.classList.remove('active');
+                if (navLink.getAttribute('href') === targetId) {
+                    navLink.classList.add('active');
+                }
+            });
+
+            // Automatically close the mobile menu after clicking a link
+            const dotsNav = document.querySelector('.dots-nav');
+            if (dotsNav.classList.contains('active')) {
+                dotsNav.classList.remove('active');
             }
         });
-    };
-
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-    const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
-    elementsToAnimate.forEach(el => {
-        observer.observe(el);
     });
 
-    // --- New UI Logic for Navigation ---
+    // --- Mobile (dots) menu toggle ---
     const dotsIcon = document.querySelector('.dots-icon');
     const dotsNav = document.querySelector('.dots-nav');
-    const navLinks = document.querySelectorAll('.nav-link');
-    const dotsNavLinks = document.querySelectorAll('.dots-nav a');
-    const sections = document.querySelectorAll('.content-section');
 
-    // Toggle the three-dots menu
     dotsIcon.addEventListener('click', () => {
         dotsNav.classList.toggle('active');
     });
 
-    // Close the menu if clicked outside
-    document.addEventListener('click', (event) => {
-        if (!dotsMenuContainer.contains(event.target) && dotsNav.classList.contains('active')) {
-            dotsNav.classList.remove('active');
-        }
+
+    // --- Animate elements on scroll ---
+    const scrollElements = document.querySelectorAll('.animate-on-scroll');
+
+    // Use Intersection Observer for efficient scroll detection
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            // If the element is in the viewport, add the 'is-visible' class
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target); // Stop observing after it has animated once
+            }
+        });
+    }, {
+        threshold: 0.1 // Trigger animation when 10% of the element is visible
     });
 
-    // Function to handle section display
-    const showSection = (id) => {
-        // Hide all sections first
-        sections.forEach(section => {
-            section.classList.remove('active-section');
-            section.classList.add('hidden-section');
-        });
-        
-        // Show the selected section
-        const targetSection = document.querySelector(id);
-        targetSection.classList.remove('hidden-section');
-        targetSection.classList.add('active-section');
-
-        // Close the dots menu if it's open
-        if (dotsNav.classList.contains('active')) {
-            dotsNav.classList.remove('active');
-        }
-    };
-
-    // Add event listeners for main navigation links
-    navLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent default anchor link behavior
-            
-            // Remove active class from all main links
-            navLinks.forEach(l => l.classList.remove('active'));
-            
-            // Add active class to the clicked link
-            link.classList.add('active');
-            
-            // Show the corresponding section
-            showSection(link.getAttribute('href'));
-        });
+    scrollElements.forEach(el => {
+        observer.observe(el);
     });
 
-    // Add event listeners for three-dots menu links
-    dotsNavLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault();
-            showSection(link.getAttribute('href'));
-        });
-    });
-
-    // Initialize the page by showing the home section
-    showSection('#home');
 });
