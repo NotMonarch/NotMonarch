@@ -1,61 +1,75 @@
-/* Colors and Variables */
+/* --- Core Setup & Variables --- */
+
+/* Defines the color palette and reusable properties for the entire site. */
 :root {
-    --bg-color: #18181B;
-    --text-color: #D3C3B9;
-    --primary-color: #2D3D53;
-    --accent-color: #A79E9C;
-    --card-bg: #B58863;
-    --hover-color: #F8E3DA;
-    --nav-bg: #3D4D55;
+    --bg-color: #18181B;        /* Dark background */
+    --text-color: #D3C3B9;      /* Light, warm text */
+    --primary-color: #2D3D53;   /* Dark blue for headings and accents */
+    --accent-color: #A79E9C;     /* Mid-tone grey for secondary elements/hovers */
+    --card-bg: #B58863;         /* Warm tan for cards and headers */
+    --hover-color: #F8E3DA;     /* Lightest color for hover effects */
+    --nav-bg: #3D4D55;          /* Darker blue/grey for dropdowns/nav */
     --border-radius: 8px;
     --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
+/* --- Global Resets & Body Styles --- */
+
+/* Universal reset to remove default browser margins and paddings. */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Sets default styles for the entire page. */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
+/* --- Typography --- */
+
+/* Basic styling for headings. */
 h1, h2, h3 {
     color: var(--primary-color);
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Header and Navigation */
+/* --- Header & Navigation --- */
+
+/* The main header bar container. */
 .main-header {
-    background: var(--card-bg);
+    background: var(--card-bg); /* Uses the warm tan for a distinct look */
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: var(--box-shadow);
-    position: sticky;
+    position: sticky; /* Makes the header stick to the top on scroll */
     top: 0;
     z-index: 1000;
 }
 
+/* Site logo styling. */
 .logo {
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--primary-color);
 }
 
+/* Container for the main navigation links. */
 .main-nav {
     display: flex;
     gap: 30px;
 }
 
+/* Individual navigation links. */
 .nav-link {
     font-weight: 500;
     color: var(--text-color);
@@ -63,15 +77,20 @@ h1, h2, h3 {
     transition: color 0.3s ease;
 }
 
+/* Hover and active states for navigation links. */
 .nav-link:hover, .nav-link.active {
     color: var(--primary-color);
 }
 
+/* --- Mobile (Dots) Menu --- */
+
+/* Container for the mobile menu icon, hidden on desktop. */
 .dots-menu-container {
     position: relative;
     display: none;
 }
 
+/* The three-dots menu button icon. */
 .dots-icon {
     background: none;
     border: none;
@@ -80,6 +99,7 @@ h1, h2, h3 {
     cursor: pointer;
 }
 
+/* The dropdown menu that appears on mobile. */
 .dots-nav {
     position: absolute;
     top: 100%;
@@ -90,14 +110,16 @@ h1, h2, h3 {
     flex-direction: column;
     padding: 10px;
     min-width: 150px;
-    display: none;
+    display: none; /* Hidden by default */
     z-index: 10;
 }
 
+/* Class to show the mobile menu when active. */
 .dots-nav.active {
     display: flex;
 }
 
+/* Links inside the mobile dropdown menu. */
 .dots-nav a {
     color: var(--text-color);
     text-decoration: none;
@@ -106,11 +128,14 @@ h1, h2, h3 {
     border-radius: 5px;
 }
 
+/* Hover effect for mobile menu links. */
 .dots-nav a:hover {
     background-color: var(--accent-color);
 }
 
-/* Content Sections */
+/* --- Page Content Sections --- */
+
+/* Base styling for main content containers (e.g., Home, Badges). */
 .content-section {
     padding: 60px 20px;
     max-width: 900px;
@@ -120,22 +145,27 @@ h1, h2, h3 {
     transform: translateY(20px);
 }
 
+/* Makes the currently viewed section visible. */
 .content-section.active-section {
     display: block;
     opacity: 1;
     transform: translateY(0);
 }
 
+/* Hides inactive sections completely. */
 .hidden-section {
     display: none;
 }
 
-/* Home Section */
+/* --- "Home" Section Specifics --- */
+
+/* Container for the profile name and slogan. */
 .profile-card {
     text-align: center;
     margin-bottom: 50px;
 }
 
+/* Styling for the main name heading with a gradient text effect. */
 .profile-card h2 {
     font-size: 3rem;
     background: linear-gradient(90deg, var(--primary-color), var(--hover-color));
@@ -143,11 +173,13 @@ h1, h2, h3 {
     -webkit-text-fill-color: transparent;
 }
 
+/* Slogan text styling. */
 .slogan {
     font-style: italic;
-    color: #a0a0a0;
+    color: var(--accent-color); /* Updated from hardcoded color */
 }
 
+/* Container for the movie quote and image. */
 .movie-scene-container {
     background: var(--card-bg);
     padding: 20px;
@@ -156,12 +188,14 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* Movie quote text styling. */
 .movie-quote {
-    color: white;
+    color: var(--text-color); /* Updated from hardcoded 'white' */
     font-style: italic;
     font-size: 1.5rem;
 }
 
+/* Movie scene image. */
 .movie-image {
     width: 100%;
     max-width: 600px;
@@ -170,13 +204,16 @@ h1, h2, h3 {
     margin-top: 20px;
 }
 
-/* Badges Section Styling */
+/* --- "Badges" Section Styling --- */
+
+/* Flex container for the list of badges. */
 .badge-item-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
+/* Individual badge item row. */
 .badge-item {
     display: flex;
     align-items: center;
@@ -188,75 +225,32 @@ h1, h2, h3 {
     transition: transform 0.3s ease, background 0.3s ease;
 }
 
+/* Hover effect for badge items. */
 .badge-item:hover {
     transform: translateY(-5px);
     background: var(--accent-color);
 }
 
+/* Badge icon styling. */
 .badge-item img {
     height: 40px;
+} /*FIXED: Added missing closing brace */
 
-
+/* Text description next to the badge icon. */
 .badge-description {
     font-size: 1rem;
     color: var(--text-color);
     flex-grow: 1;
 }
 
-/* Animations - Keeping these as you liked them! */
-.animate-on-load {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInSlideUp 1s ease-out forwards;
-}
+/* --- "GitHub Stats" Section Styling --- */
 
-.animate-on-load:nth-child(2) {
-    animation-delay: 0.5s;
-    
-}
-
-@keyframes fadeInSlideUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.animate-on-scroll {
-    opacity: 0;
-    transform: scale(0.95);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.animate-on-scroll.is-visible {
-    opacity: 1;
-    transform: scale(1);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .main-nav {
-        display: none;
-    }
-
-    .dots-menu-container {
-        display: block;
-    }
-
-    .main-header {
-        justify-content: space-between;
-    }
-
-    .badge-item {
-        flex-direction: column;
-        text-align: center;
-    }
-
-/* --- New GitHub Stats Styling --- */
+/* Main container for the stats section. */
 .section-stats {
     padding: 50px 15px;
 }
 
+/* Flex container for arranging the stat cards. */
 .stats-card-container {
     display: flex;
     flex-direction: column;
@@ -264,6 +258,7 @@ h1, h2, h3 {
     align-items: center; /* Center the cards horizontally */
 }
 
+/* Styling for individual stat image cards. */
 .stats-card {
     background: var(--card-bg);
     padding: 20px;
@@ -274,23 +269,81 @@ h1, h2, h3 {
     max-width: 600px;
 }
 
+/* Title above each stat card image. */
 .stats-card h4 {
     margin-bottom: 15px;
     color: var(--primary-color);
     font-size: 1.2rem;
 }
 
+/* Ensures the GitHub stat images are responsive. */
 .stats-card img {
     width: 100%;
     height: auto;
 }
 
-/* Responsive adjustments for badges on smaller screens */
+/* --- Animations --- */
+
+/* Initial state for elements that animate on page load. */
+.animate-on-load {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInSlideUp 1s ease-out forwards;
+}
+
+/* Adds a slight delay to the second animated element for a staggered effect. */
+.animate-on-load:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+/* Defines the keyframes for the fade-in and slide-up animation. */
+@keyframes fadeInSlideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Initial state for elements that animate when scrolled into view. */
+.animate-on-scroll {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* The visible state for scrolled elements, triggering the transition. */
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* --- Responsive Design --- */
+
+/* Styles for tablets and smaller screens (768px and below). */
 @media (max-width: 768px) {
-    /* ... Previous responsive styles ... */
+    /* Hides the desktop navigation. */
+    .main-nav {
+        display: none;
+    }
+
+    /* Shows the mobile dots menu icon. */
+    .dots-menu-container {
+        display: block;
+    }
+
+    /* Ensures header items are spaced out correctly. */
+    .main-header {
+        justify-content: space-between;
+    }
+
+    /* Stacks badge content vertically on small screens. */
+    .badge-item {
+        flex-direction: column;
+        text-align: center;
+    }
     
+    /* Reduces padding on stat cards for smaller screens. */
     .stats-card {
         padding: 15px;
     }
 }
-    
