@@ -45,10 +45,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const dotsIcon = document.querySelector('.dots-icon');
     const dotsNav = document.querySelector('.dots-nav');
 
-    dotsIcon.addEventListener('click', () => {
-        dotsNav.classList.toggle('active');
-    });
-
+    if (dotsIcon) { // Check if the element exists before adding listener
+        dotsIcon.addEventListener('click', () => {
+            dotsNav.classList.toggle('active');
+        });
+    }
 
     // --- Animate elements on scroll ---
     const scrollElements = document.querySelectorAll('.animate-on-scroll');
